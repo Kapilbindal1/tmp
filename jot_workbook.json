@@ -1,0 +1,351 @@
+{
+  "program": "Strength & Conditioning Program",
+  "focus": "Hypertrophy",
+  "abbreviations": {
+    "DS": "Drop Set",
+    "TDS": "Triple Drop Set",
+    "F": "Failure Set",
+    "LP": "Low Pulley",
+    "HP": "High Pulley",
+    "S/S": "Super Set",
+    "PS": "Pyramid Set",
+    "NG": "Neutral Grip",
+    "RTR": "Run the Rack",
+    "SG": "Supinated Grip",
+    "RPE": "Rate of Perceived Exertion",
+    "R.I": "Rest Interval",
+    "BB": "Barbell",
+    "DB": "Dumbbell",
+    "WG": "Wide Grip",
+    "CG": "Close Grip",
+    "O/H": "Overhead"
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "PHASE 1 TRAINING",
+      "focus": "Hypertrophy",
+      "tracking_weeks": 6,
+      "workouts": [
+        {
+          "name": "LEGS (1)",
+          "exercises": [
+            { "exercise": "V-Squat Calf Raises (Tempo)", "volume": "5*12", "rpe": 8, "tempo": "3.2.1", "rest": "2min" },
+            { "exercise": "V-Squat (Machine =25kg)", "volume": "2*6", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "V-Squat (Machine =25kg)", "volume": "2*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press (Tempo)", "volume": "2*10", "rpe": 9, "tempo": "4.1.1", "rest": "2min" },
+            { "exercise": "Leg Press", "volume": "3*25", "rpe": 9, "tempo": "2.1.2", "rest": "3min" },
+            { "exercise": "BB RDL", "volume": "3*12", "rpe": 8, "tempo": "2.1.2", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls", "volume": "4*15", "rpe": 9, "tempo": "2.1.2", "rest": "2.5min" }
+          ]
+        },
+        {
+          "name": "PULL 2",
+          "exercises": [
+            { "exercise": "Lat Downs (Tempo)", "volume": "5*10-12", "rpe": 8, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Hammer Incline Row", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Pull Ups", "volume": "3*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "BB Bent Over Row", "volume": "4*10", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "WG Seated Row", "volume": "4*20", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Seated Incline Curls (DS)", "volume": "5*15*15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "Tricep Push Downs", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "PUSH 3",
+          "exercises": [
+            { "exercise": "Bench Cable Flys", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Incline Bench Press (Tempo)", "volume": "4*12", "rpe": 8, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Smith Machine Bench Press", "volume": "2*15", "rpe": 9, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Lying Cable Lateral Raise", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Shoulder Press", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Skull Crushers (DS)", "volume": "5*15*15", "rpe": 9, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "LP Curls", "volume": "5*20", "rpe": 9, "tempo": "1.1.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "LEGS 4",
+          "exercises": [
+            { "exercise": "Seated Calf Raises", "volume": "5*20", "rpe": 9, "tempo": "1.2.1", "rest": "2min" },
+            { "exercise": "BB Deadlift (Reset)", "volume": "2*4", "rpe": 9, "tempo": "1.1.1", "rest": "4min" },
+            { "exercise": "BB Deadlift (Touch n Go)", "volume": "2*10", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "Leg Press (High Stance)", "volume": "3*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "BB Hip Thrusts", "volume": "4*10", "rpe": 9, "tempo": "1.1.1", "rest": "2.5min" },
+            { "exercise": "DB Bulgarian Split Squat", "volume": "4*10", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Seated Leg Extensions (DS)", "volume": "3*15*15", "rpe": 9, "tempo": "1.0.1", "rest": "2min" }
+          ]
+        },
+        {
+          "name": "PUSH / PULL 5",
+          "exercises": [
+            { "exercise": "Seated Cable Fly's", "volume": "4*12", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Bench Press", "volume": "2*6", "rpe": 9, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Bench Press", "volume": "2*12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "T Bar Row", "volume": "5*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Lateral Raises", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": null },
+            { "exercise": "HP Rope Face Pulls", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "LP Curls", "volume": "5*20", "rpe": 8, "tempo": "1.0.1", "rest": null },
+            { "exercise": "Rope O/Head Extensions", "volume": "5*20", "rpe": 8, "tempo": "1.0.1", "rest": "3min" }
+          ]
+        },
+        {
+          "name": "Abs (2x p/w)",
+          "exercises": [
+            { "exercise": "Prone Hold", "volume": "3*1min" },
+            { "exercise": "Curl Ups", "volume": "3*8" },
+            { "exercise": "Lying Leg Raises", "volume": "3*20" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "PHASE 2 TRAINING",
+      "focus": "Hypertrophy",
+      "tracking_weeks": 6,
+      "workouts": [
+        {
+          "name": "LEGS (1)",
+          "exercises": [
+            { "exercise": "V-Squat Calf Raises (Tempo)", "volume": "6*12", "rpe": 8, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Leg Extensions", "volume": "2*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Hack Squat (Machine =47kg)", "volume": "2*8", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Hack Squat (Machine =47kg)", "volume": "2*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press", "volume": "2*10", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press", "volume": "2*20", "rpe": 9, "tempo": "1.0.1", "rest": "3min" },
+            { "exercise": "BB RDL", "volume": "3*12", "rpe": 8, "tempo": "2.1.2", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls", "volume": "4*15", "rpe": 9, "tempo": "2.1.2", "rest": "2.5min" }
+          ]
+        },
+        {
+          "name": "PULL 2",
+          "exercises": [
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "2*20", "rpe": 7, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Lat Pulldown (D-Handle Bar) (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Hammer Incline Row", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Chin Ups (NG)", "volume": "2*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "BB Bent Over Row (SG)", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Seated Row (D-Handle Bar) (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "EZ Preacher Curls", "volume": "5*12-15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "O/H Rope Extensions", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "PUSH 3",
+          "exercises": [
+            { "exercise": "Seated Bench Cable Flys", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Incline Bench Press", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Machine Chest Press (Tempo)", "volume": "4*12-15", "rpe": 9, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Lying Cable Lateral Raise", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Shoulder Press", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Smith Machine CG Bench Press", "volume": "5*20", "rpe": 9, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "BB Curls", "volume": "5*15", "rpe": 9, "tempo": "1.1.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "LEGS 4",
+          "exercises": [
+            { "exercise": "Seated Calf Raises", "volume": "6*20", "rpe": 9, "tempo": "1.2.1", "rest": "2min" },
+            { "exercise": "BB Deadlift (Reset)", "volume": "2*5", "rpe": 9, "tempo": "1.1.1", "rest": "4min" },
+            { "exercise": "BB Deadlift (Touch n Go)", "volume": "2*10", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "Seated Hamstring Curls", "volume": "3*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Leg Press (High Stance)", "volume": "3*15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "BB Hip Thrusts", "volume": "4*10", "rpe": 9, "tempo": "1.1.1", "rest": "2.5min" },
+            { "exercise": "DB Bulgarian Split Squat", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Seated Leg Extensions (DS)", "volume": "3*15*15", "rpe": 9, "tempo": "1.0.1", "rest": "2min" }
+          ]
+        },
+        {
+          "name": "PUSH / PULL 5",
+          "exercises": [
+            { "exercise": "Seated Bench Cable Flys", "volume": "4*12-15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Smith Machine Bench Press", "volume": "2*8", "rpe": 9, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Smith Machine Bench Press", "volume": "2*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "CG Pulldown", "volume": "5*12-15", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Lateral Raises", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "HP Rope Face Pulls", "volume": "4*15", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min", "superset": true },
+            { "exercise": "DB Skull Crushers", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "LP Rope Curls", "volume": "5*20", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "Abs & Calves (2x p/w)",
+          "exercises": [
+            { "exercise": "Prone Hold", "volume": "3*1min" },
+            { "exercise": "Curl Ups", "volume": "3*8" },
+            { "exercise": "Lying Leg Raises", "volume": "3*20" },
+            { "exercise": "Smith Machine Calf Raises", "volume": "5*20" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "PHASE 3 TRAINING",
+      "focus": "Hypertrophy",
+      "tracking_weeks": 6,
+      "workouts": [
+        {
+          "name": "LEGS (1)",
+          "exercises": [
+            { "exercise": "V-Squat Calf Raises (Tempo)", "volume": "6*12", "rpe": 8, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Leg Extensions", "volume": "2*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Hack Squat (Machine =47kg)", "volume": "2*5", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Hack Squat (Machine =47kg)", "volume": "2*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press 1 1/4 Reps", "volume": "2*10", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press", "volume": "2*25", "rpe": 9, "tempo": "1.0.1", "rest": "3min" },
+            { "exercise": "BB RDL", "volume": "3*12", "rpe": 8, "tempo": "2.1.2", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls (DS)", "volume": "4*12*12", "rpe": 9, "tempo": "2.1.2", "rest": "2.5min" }
+          ]
+        },
+        {
+          "name": "PULL 2",
+          "exercises": [
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "4*20", "rpe": 7, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Lat Pulldown (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Weighted Chin Ups (NG)", "volume": "2*10", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Hammer Machine Incline Row", "volume": "4*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Seated Row (D-Handle Bar) (DS)", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "BB Bent Over Row", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Incline Curls - EZ Spider Curls", "volume": "5*12-15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "O/H Rope Extensions (DS)", "volume": "5*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "PUSH 3",
+          "exercises": [
+            { "exercise": "Standing Cable Flys", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Incline Bench Press", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Smith Machine Bench Press (Tempo)", "volume": "4*12-15", "rpe": 9, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "DB Lateral Raise (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Shoulder Press", "volume": "2*5", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Shoulder Press", "volume": "2*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Skull Crushers", "volume": "5*15", "rpe": 8, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "DB Hammer Curls", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "LEGS 4",
+          "exercises": [
+            { "exercise": "Leg Press Calf Raises", "volume": "6*20", "rpe": 9, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "BB Deadlift (Reset)", "volume": "2*4", "rpe": 9, "tempo": "1.1.1", "rest": "4min" },
+            { "exercise": "BB Deadlift (Touch n Go)", "volume": "2*8", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "BB Stiff Leg Deadlift", "volume": "3*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls (DS)", "volume": "3*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press (High Stance)", "volume": "4*20", "rpe": 9, "tempo": "1.1.1", "rest": "2.5min" },
+            { "exercise": "DB Bulgarian Split Squat", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Seated Leg Extensions (DS)", "volume": "3*15*15", "rpe": 9, "tempo": "1.0.1", "rest": "2min" }
+          ]
+        },
+        {
+          "name": "PUSH / PULL 5",
+          "exercises": [
+            { "exercise": "Seated Bench Cable Flys", "volume": "4*12-15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Bench Press", "volume": "2*8", "rpe": 9, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Bench Press", "volume": "2*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "CG Pulldown (DS)", "volume": "5*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "DB Seated Lateral Raises (DS)", "volume": "4*10*10", "rpe": 8, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "DB Reverse Flys (DS)", "volume": "4*10*10", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min", "superset": true },
+            { "exercise": "DB O/H Tricep Extensions", "volume": "5*15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "BB Curls", "volume": "5*20", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "Abs & Calves (2x p/w)",
+          "exercises": [
+            { "exercise": "Prone Hold", "volume": "3*1min" },
+            { "exercise": "Curl Ups", "volume": "3*8" },
+            { "exercise": "Lying Leg Raises", "volume": "3*20" },
+            { "exercise": "Smith Machine Calf Raises", "volume": "5*20" }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "title": "PHASE 4 TRAINING",
+      "focus": "Hypertrophy",
+      "tracking_weeks": 6,
+      "workouts": [
+        {
+          "name": "LEGS (1)",
+          "exercises": [
+            { "exercise": "V-Squat Calf Raises (Tempo)", "volume": "5*15", "rpe": 8, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "Leg Extensions", "volume": "3*20", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Smith Machine ATG Squat", "volume": "3*15", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Single Leg Leg Press", "volume": "2*10", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press", "volume": "2*25", "rpe": 9, "tempo": "1.0.1", "rest": "3min" },
+            { "exercise": "BB SLDL", "volume": "3*12", "rpe": 8, "tempo": "2.1.2", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls (DS)", "volume": "4*12*12", "rpe": 9, "tempo": "2.1.2", "rest": "2.5min" }
+          ]
+        },
+        {
+          "name": "PULL 2",
+          "exercises": [
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "4*20", "rpe": 7, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "SG Pull Down", "volume": "2*8", "rpe": 9, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "SG Pull Down", "volume": "2*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "Lat Pull Down", "volume": "2*20", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Hammer Machine Incline Row", "volume": "2*6-8", "rpe": 9, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Hammer Machine Incline Row", "volume": "2*12-15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Seated Row (D-Handle Bar) (DS)", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "BB SG Bent Over Row", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Incline Curls - BB Curls", "volume": "4*12-15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "Tricep Bar Push Downs (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "PUSH 3",
+          "exercises": [
+            { "exercise": "Standing Cable Flys", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Incline Bench Fly", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Smith Machine Bench Press", "volume": "4*12-15", "rpe": 9, "tempo": "3.1.1", "rest": "2min" },
+            { "exercise": "DB Lateral Raise (DS)", "volume": "4*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Machine Shoulder Press", "volume": "2*6-8", "rpe": 9, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Machine Shoulder Press", "volume": "2*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "DB Skull Crushers", "volume": "5*12", "rpe": 8, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "DB Hammer Curls", "volume": "5*10", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "LEGS 4",
+          "exercises": [
+            { "exercise": "Leg Press Calf Raises", "volume": "5*20", "rpe": 9, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "BB Deadlift (Touch n Go)", "volume": "2*6", "rpe": 9, "tempo": "1.1.1", "rest": "3min" },
+            { "exercise": "BB Deadlift (Touch n Go)", "volume": "2*12", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "GHRs (DB SLDL)", "volume": "3*12", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "Lying Hamstring Curls (DS)", "volume": "3*12*12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "Leg Press (High Stance)", "volume": "4*20", "rpe": 9, "tempo": "1.1.1", "rest": "2.5min" },
+            { "exercise": "DB Bulgarian Split Squat", "volume": "4*10-12", "rpe": 8, "tempo": "1.0.1", "rest": "2min" },
+            { "exercise": "BB Hip Thrusts", "volume": "4*10", "rpe": 9, "tempo": "1.1.1", "rest": "2min" }
+          ]
+        },
+        {
+          "name": "PUSH / PULL 5",
+          "exercises": [
+            { "exercise": "Seated Bench Cable Flys", "volume": "4*12-15", "rpe": 8, "tempo": "1.1.1", "rest": "2min" },
+            { "exercise": "DB Incline Bench Press", "volume": "2*8", "rpe": 9, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "DB Incline Bench Press", "volume": "2*15", "rpe": 8, "tempo": "1.0.1", "rest": "90sec" },
+            { "exercise": "Straight Arm Rope Pull Down", "volume": "4*15", "rpe": 8, "tempo": "1.1.1", "rest": "90sec" },
+            { "exercise": "CG Pulldown", "volume": "4*8*15", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min" },
+            { "exercise": "1 Arm Cable Lateral Raise (DS)", "volume": "4*10*10", "rpe": 8, "tempo": "1.1.1", "rest": null, "superset": true },
+            { "exercise": "DB Reverse Flys (DS)", "volume": "4*10*10", "rpe": 8, "tempo": "1.0.1", "rest": "2.5min", "superset": true },
+            { "exercise": "Parallel Dips", "volume": "5*10-15", "rpe": 8, "tempo": "1.0.1", "rest": null, "superset": true },
+            { "exercise": "BB Curls", "volume": "5*20", "rpe": 8, "tempo": "1.0.1", "rest": "3min", "superset": true }
+          ]
+        },
+        {
+          "name": "Abs & Calves (2x p/w)",
+          "exercises": [
+            { "exercise": "Prone Hold", "volume": "3*1min" },
+            { "exercise": "Curl Ups", "volume": "3*8" },
+            { "exercise": "Lying Leg Raises", "volume": "3*20" },
+            { "exercise": "Smith Machine Calf Raises", "volume": "5*20" }
+          ]
+        }
+      ]
+    }
+  ]
+}
